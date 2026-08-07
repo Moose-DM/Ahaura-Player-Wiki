@@ -2,15 +2,116 @@
 
 // put your custom CSS here!
 
-/* A slow, shifting solar/ember glow for Dark Mode */
-:root[saved-theme="dark"] body {
-  background: linear-gradient(270deg, #161211, #36170c, #161211);
-  background-size: 600% 600%;
-  animation: solarShift 20s ease infinite;
+@use "./base.scss";
+@use "./variables.scss" as *;
+@use "sass:map";
+// put your custom CSS here!
+
+// -- Morrowind Modding Wiki SCSS Modules for cooler things-- //
+ @use "./custom/infobox-callout.scss";
+ @use "./custom/image-adjustments.scss";
+ @use "./custom/callout-adjustments.scss";
+ @use "./custom/column-callout.scss";
+ @use "./custom/caption-callout.scss";
+
+
+// expands to match wide monitors better (I think)
+@media all and ($desktop) {
+  body div#quartz-root.page div#quartz-body {
+    width: min(100%, calc(#{map.get($breakpoints, desktop)} + 700px));
+    max-width: min(100%, calc(#{map.get($breakpoints, desktop)} + 700px));
+    padding: 0 auto;
+  }
 }
 
-@keyframes solarShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* 1. Remove the default background highlight for internal links and tag links */
+body a.internal
+{
+    background-color: transparent !important;
+    /* Optional: Quartz adds padding/radius for the highlight; 
+       setting to 0 keeps the text alignment tight when the highlight is gone. */
+    padding: 0; 
+    border-radius: 4px;
+    transition: background-color 0.2s ease; /* Makes the highlight fade in smoothly */
+}
+
+
+
+// Style changes to fix Infobox callout styling //
+
+/* Infobox callout fix 1: Prevent heading underlines from bleeding into floated infoboxes */
+h1, h2, h3, h4, h5, h6 {
+  display: flow-root;
+}
+
+/*  Infobox callout fix 2: Reset Quartz's default callout box styles specifically for ITS infoboxes */
+.callout[data-callout~="infobox"] {
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  
+  /* Retain grid and layout mechanics for child content elements */
+  & > .callout-content {
+    display: grid;
+    
+    & > :first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+
+// Style changes to fix comma separated values in Bases having extra spaces //
+
+/* Fix Bases comma-separated lists wrapping before commas */
+.bases-table td .bases-list {
+  display: inline !important;
+}
+
+.bases-table td .bases-text,
+.bases-table td .bases-separator {
+  display: inline !important;
+}
+
+
+// Style changes to allow for Animated Backgrounds //
+
+/* 1. Strip backgrounds from Quartz layout wrappers and footer elements */
+html,
+body,
+.center,
+center,
+#quartz-body,
+.page > div#quartz-body div.sidebar.left,
+.page > div#quartz-body div.sidebar.left:has(.explorer),
+.page > div#quartz-body div.sidebar.left .explorer .explorer-content,
+.page,
+.leaflet-container,
+.header,
+.before-body,   /* Maps to: beforeBody */
+.page-body,     /* Maps to: pageBody */
+.after-body,    /* Maps to: afterBody */
+.left,          /* Maps to: left */
+.right,         /* Maps to: right */
+footer          /* Maps to: footer */ {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 2. Make your text readable over the background animation */
+/* Targets the main layout column wrapper where page content resides */
+.page .center {
+  /* Safely mixes 50% opacity into whatever --light color is active */
+  background: color-mix(in srgb, var(--light) 30%, transparent) !important; 
+  
+  /* Glassmorphism glass blur */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  /* Keeps layout spacing clean over the background */
+  padding: 2rem; 
+  border-radius: 8px;
 }
