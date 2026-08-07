@@ -1,3 +1,16 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/* A slow, shifting solar/ember glow for Dark Mode */
+:root[saved-theme="dark"] body {
+  background: linear-gradient(270deg, #161211, #36170c, #161211);
+  background-size: 600% 600%;
+  animation: solarShift 20s ease infinite;
+}
+
+@keyframes solarShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
