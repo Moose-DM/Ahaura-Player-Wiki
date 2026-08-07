@@ -125,13 +125,12 @@ plugins:
     enabled: true
     options:
       type: vector
-      theme: light
       zIndex: -2
       opacity: 0.4
       speedMultiplier: 0.3
       density: 80
       interactive: true
-      theme: auto
+      theme: light
       palette: sunset
     order: 50
     layout:
@@ -141,13 +140,12 @@ plugins:
     enabled: true
     options:
       type: dots
-      theme: dark
       zIndex: -2
       opacity: 0.4
       speedMultiplier: 0.3
       density: 80
       interactive: true
-      theme: auto
+      theme: dark
       palette: ["#FF3300", "#FF6600", "#FF9900", "#FFCC00"]
     order: 50
     layout:
