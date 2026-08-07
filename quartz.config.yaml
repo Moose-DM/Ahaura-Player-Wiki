@@ -126,11 +126,7 @@ plugins:
   options:
     type: vector
     theme: light
-    palette:
-      - "#FFF3B0" # Soft golden light
-      - "#FFD166" # Warm sun yellow
-      - "#F4A261" # Bright amber ray
-      - "#E76F51" # Warm sunburst highlight
+    palette: ["#FFF3B0", "#FFD166", "#F4A261", "#E76F51"]
     opacity: 0.35
     speedMultiplier: 0.8
     density: 45
@@ -146,11 +142,7 @@ plugins:
   options:
     type: dots
     theme: dark
-    palette:
-      - "#FF3300" # Fiery hot red
-      - "#FF6600" # Glowing ember orange
-      - "#FF9900" # Warm ash orange
-      - "#FFCC00" # Bright yellow spark
+    palette: ["#FF3300", "#FF6600", "#FF9900", "#FFCC00"]
     opacity: 0.5
     speedMultiplier: 0.3
     density: 80
