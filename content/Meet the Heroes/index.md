@@ -1,3 +1,3 @@
 ---
-title: 01. Meet the Heroes
+title: Meet the Heroes
 ---
