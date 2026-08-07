@@ -12,36 +12,31 @@ configuration:
     - private
     - templates
     - .obsidian
-  theme: {
-      fontOrigin: "googleFonts",
-      typography: {
-        header: "Cinzel", // An epic, classical fantasy font for your page titles
-        body: "Lora",     // A beautiful, highly readable serif that feels like a printed book
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#fdf6e3",       // Warm parchment background
-          lightgray: "#e5d5b5",   // Slightly darker parchment for borders and search box
-          gray: "#b59f7b",        // Muted gold/bronze for graph links
-          darkgray: "#4a3c31",    // Deep warm brown for body text (easier on the eyes than black)
-          dark: "#8c2a12",        // Deep sun-baked terracotta for headers and icons
-          secondary: "#d95c14",   // Vibrant sun orange for active links
-          tertiary: "#f2a65a",    // Golden-hour yellow for hover states
-          highlight: "rgba(217, 92, 20, 0.15)", // Soft sunbeam highlight for internal links
-        },
-        darkMode: {
-          light: "#161211",       // Deep twilight/obsidian with a warm undertone
-          lightgray: "#362721",   // Dark warm stone for borders
-          gray: "#6b5344",        // Dimmed bronze for unlit graph nodes
-          darkgray: "#dcd0c9",    // Ashy off-white for highly readable body text
-          dark: "#f2b366",        // Glowing gold for headers (like a torch in the dark)
-          secondary: "#e67e22",   // Bright ember orange for links
-          tertiary: "#ff5733",    // Fiery sunset red for hover states
-          highlight: "rgba(230, 126, 34, 0.15)", // Warm glow for highlights
-        },
-      },
-    },
+  theme:
+  fontOrigin: "googleFonts"
+  typography:
+    header: "Cinzel" # An epic, classical fantasy font for your page titles
+    body: "Lora" # A beautiful, highly readable serif that feels like a printed book
+    code: "IBM Plex Mono"
+  colors:
+    lightMode:
+      light: "#fdf6e3" # Warm parchment background
+      lightgray: "#e5d5b5" # Slightly darker parchment for borders and search box
+      gray: "#b59f7b" # Muted gold/bronze for graph links
+      darkgray: "#4a3c31" # Deep warm brown for body text (easier on the eyes than black)
+      dark: "#8c2a12" # Deep sun-baked terracotta for headers and icons
+      secondary: "#d95c14" # Vibrant sun orange for active links
+      tertiary: "#f2a65a" # Golden-hour yellow for hover states
+      highlight: "rgba(217, 92, 20, 0.15)" # Soft sunbeam highlight for internal links
+    darkMode:
+      light: "#161211" # Deep twilight/obsidian with a warm undertone
+      lightgray: "#362721" # Dark warm stone for borders
+      gray: "#6b5344" # Dimmed bronze for unlit graph nodes
+      darkgray: "#dcd0c9" # Ashy off-white for highly readable body text
+      dark: "#f2b366" # Glowing gold for headers (like a torch in the dark)
+      secondary: "#e67e22" # Bright ember orange for links
+      tertiary: "#ff5733" # Fiery sunset red for hover states
+      highlight: "rgba(230, 126, 34, 0.15)" # Warm glow for highlights
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
