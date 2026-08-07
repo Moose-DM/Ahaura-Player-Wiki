@@ -122,20 +122,44 @@ plugins:
       enableCopyTool: false
     order: 50
   - source: https://github.com/DaveParkinglot/bg-varieties_temp
-    enabled: true
-    options:
-      type: dots
-      zIndex: -2
-      opacity: 0.4
-      speedMultiplier: 0.3
-      density: 80
-      interactive: true
-      theme: auto
-      palette: sunset
-    order: 50
-    layout:
-      position: afterBody
-      priority: 10
+  enabled: true
+  options:
+    type: vector
+    theme: light
+    palette:
+      - "#FFF3B0" # Soft golden light
+      - "#FFD166" # Warm sun yellow
+      - "#F4A261" # Bright amber ray
+      - "#E76F51" # Warm sunburst highlight
+    opacity: 0.35
+    speedMultiplier: 0.8
+    density: 45
+    interactive: true
+    zIndex: -2
+  order: 50
+  layout:
+    position: afterBody
+    priority: 10
+
+- source: https://github.com/DaveParkinglot/bg-varieties_temp
+  enabled: true
+  options:
+    type: dots
+    theme: dark
+    palette:
+      - "#FF3300" # Fiery hot red
+      - "#FF6600" # Glowing ember orange
+      - "#FF9900" # Warm ash orange
+      - "#FFCC00" # Bright yellow spark
+    opacity: 0.5
+    speedMultiplier: 0.3
+    density: 80
+    interactive: true
+    zIndex: -2
+  order: 50
+  layout:
+    position: afterBody
+    priority: 10
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
