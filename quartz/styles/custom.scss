@@ -115,3 +115,26 @@ footer          /* Maps to: footer */ {
   padding: 2rem; 
   border-radius: 8px;
 }
+
+/* Force Quartz & ITS Theme to use your custom Google Fonts */
+:root {
+  --headerFont: "UnifrakturMaguntia", cursive, sans-serif !important;
+  --bodyFont: "Caveat", cursive, sans-serif !important;
+  --codeFont: "IBM Plex Mono", monospace !important;
+  
+  /* ITS Theme specific font variables */
+  --font-header: var(--headerFont) !important;
+  --font-body: var(--bodyFont) !important;
+  --font-default: var(--bodyFont) !important;
+}
+
+/* Ensure headings render properly with UnifrakturMaguntia */
+h1, h2, h3, h4, h5, h6, .page-title {
+  font-family: var(--headerFont) !important;
+}
+
+/* Ensure body text renders properly with Caveat */
+body, p, li, article {
+  font-family: var(--bodyFont) !important;
+  font-size: 1.25rem; /* Caveat runs small, bump up size for readability */
+}

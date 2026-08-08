@@ -16,7 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: UnifrakturMaguntia
+      title: UnifrakturMaguntia
+      header: MedievalSharp
       body: Caveat
       code: IBM Plex Mono
     colors:
