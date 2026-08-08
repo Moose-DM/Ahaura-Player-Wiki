@@ -113,9 +113,19 @@ plugins:
     enabled: true
     options:
       fontOrigin: googleFonts
-      title: "UnifrakturMaguntia"
+      useThemeFonts: false
+      title: '"UnifrakturMaguntia", serif'
       header: "MedievalSharp"
-      body: "Caveat"
+      h1: "MedievalSharp"
+      h2: "MedievalSharp"
+      h3: "MedievalSharp"
+      h4: "MedievalSharp"
+      h5: "MedievalSharp"
+      h6: "MedievalSharp"
+      body:
+        name: Caveat
+        weights: [400, 600, 700] # Adding weights ensures Caveat doesn't render too thin
+      code: "IBM Plex Mono"
   - source: "@quartz-themes/core"
     enabled: true
     options:
