@@ -116,25 +116,41 @@ footer          /* Maps to: footer */ {
   border-radius: 8px;
 }
 
-/* Force Quartz & ITS Theme to use your custom Google Fonts */
+/* Custom Fonts Override for Quartz + ITS Theme */
 :root {
-  --headerFont: "UnifrakturMaguntia", cursive, sans-serif !important;
+  /* Define Base Variables with Fallbacks */
+  --titleFont: "UnifrakturMaguntia", cursive, serif !important;
+  --headerFont: "MedievalSharp", cursive, serif !important;
   --bodyFont: "Caveat", cursive, sans-serif !important;
   --codeFont: "IBM Plex Mono", monospace !important;
-  
-  /* ITS Theme specific font variables */
+
+  /* Override ITS Theme Font Variables */
+  --font-title: var(--titleFont) !important;
   --font-header: var(--headerFont) !important;
   --font-body: var(--bodyFont) !important;
   --font-default: var(--bodyFont) !important;
 }
 
-/* Ensure headings render properly with UnifrakturMaguntia */
-h1, h2, h3, h4, h5, h6, .page-title {
+/* 1. Site Title (Top Left / Banner) */
+.page-title, 
+.site-title, 
+.header-title,
+a.internal.app-title {
+  font-family: var(--titleFont) !important;
+}
+
+/* 2. Page Section Headings (H1-H6) */
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--headerFont) !important;
 }
 
-/* Ensure body text renders properly with Caveat */
+/* 3. Body Text */
 body, p, li, article {
   font-family: var(--bodyFont) !important;
-  font-size: 1.25rem; /* Caveat runs small, bump up size for readability */
+  font-size: 1.25rem; /* Bumps up Caveat size for readability */
+}
+
+/* 4. Code Blocks */
+code, pre {
+  font-family: var(--codeFont) !important;
 }
