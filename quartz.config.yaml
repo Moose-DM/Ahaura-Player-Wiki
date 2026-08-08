@@ -111,6 +111,11 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      title: "UnifrakturMaguntia"
+      header: "MedievalSharp"
+      body: "Caveat"
   - source: "@quartz-themes/core"
     enabled: true
     options:
