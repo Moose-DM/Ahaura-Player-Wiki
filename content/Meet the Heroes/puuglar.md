@@ -5,7 +5,7 @@ draft: false
 <img src="Images/Puuglar_1.jpg" align="left" width="300" style="margin-right: 20px; margin-bottom: 15px; border-radius: 5px;" />
 
 > [!Quote|author mark no-title] Puuglar
->  "YOU CAN'T SEE ME! I AM TOO SNEAKY!" 
+>  YOU CAN'T SEE ME! I AM TOO SNEAKY! 
 
 
 | Class | Level | Subclass | Race |

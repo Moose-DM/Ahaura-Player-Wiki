@@ -131,7 +131,7 @@ plugins:
       density: 80
       interactive: true
       theme: auto
-      palette: ["#FF3300", "#FF6600", "#FF9900", "#FFCC00"]
+      palette: ["#FF3300", "#FF6600", "#FF9900", "#FFCC00", "#911C00", "#A3A3A3", "#FFFFFF"]
     order: 50
     layout:
       position: afterBody
