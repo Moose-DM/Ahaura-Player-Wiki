@@ -1,5 +1,5 @@
 ---
-title: Meet the Heroes!
+title: Meet the Heroes
 ---
 ```base
 views:

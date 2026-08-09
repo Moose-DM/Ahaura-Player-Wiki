@@ -1,6 +1,7 @@
 ---
 title: Welcome to Ahaura
 ---
+# Map of Ahaura
 ```base
 views:
   - type: leaflet-map
@@ -18,4 +19,4 @@ views:
 
 [[Ahaura_Map.png|View full map image]]
 
-[[Meet the Heroes/]]
+# [[Meet the Heroes]]
