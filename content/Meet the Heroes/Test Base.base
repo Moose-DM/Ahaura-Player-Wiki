@@ -3,5 +3,6 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("content/Meet the Heroes")
+        - file.hasTag("hero")
     image: note.image
+    imageAspectRatio: 1.4

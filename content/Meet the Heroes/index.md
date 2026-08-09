@@ -4,13 +4,10 @@ title: Meet the Heroes
 ```base
 views:
   - type: cards
-    name: Meet the Heroes
+    name: Table
     filters:
       and:
-        - file.inFolder("Meet the Heroes")
-        - file.name != "index"
-    order:
-      - file.name
+        - file.hasTag("hero")
     image: note.image
     imageAspectRatio: 1.4
 
