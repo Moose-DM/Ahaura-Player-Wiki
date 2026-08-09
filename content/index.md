@@ -18,15 +18,4 @@ views:
 
 [[Ahaura_Map.png|View full map image]]
 
-```base
-views:
-  - type: cards
-    name: Table
-    filters:
-      and:
-        - "!image.isEmpty()"
-    image: note.image
-    cardSize: 220
-    imageAspectRatio: 0.75
-
-````
+[[Meet the Heroes/]]
