@@ -2,6 +2,7 @@
 title: Welcome to Ahaura
 ---
 # Map of Ahaura
+
 ```base
 views:
   - type: leaflet-map
