@@ -8,7 +8,7 @@ views:
     filters:
       and:
         - file.hasTag("hero")
-    image: file.frontmatter.image
+    image: note.image
     imageAspectRatio: 1.4
 
 ````
