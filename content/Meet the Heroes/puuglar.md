@@ -3,7 +3,7 @@ title: Puuglar - Bart
 draft: false
 tags:
   - hero
-image: Images/Puuglar_1.jpg
+image: /Images/Puuglar_1.jpg
 ---
 <img src="Images/Puuglar_1.jpg" align="left" width="300" style="margin-right: 20px; margin-bottom: 15px; border-radius: 5px;" />
 
