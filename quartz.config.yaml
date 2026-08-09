@@ -123,9 +123,6 @@ plugins:
       h5: "MedievalSharp"
       h6: "MedievalSharp"
       body: "EB Garamond"
-      code:
-        name: Caveat
-        weights: [400, 600, 700] # Adding weights ensures Caveat doesn't render too thin      "IBM Plex Mono"
   - source: "@quartz-themes/core"
     enabled: true
     options:
