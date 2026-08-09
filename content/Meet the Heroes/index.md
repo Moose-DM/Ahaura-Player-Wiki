@@ -9,7 +9,8 @@ views:
       and:
         - file.hasTag("hero")
     image: note.image
-    imageAspectRatio: 1.4
+    cardSize: 220
+    imageAspectRatio: 1
 
 ````
 

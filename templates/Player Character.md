@@ -14,6 +14,7 @@ let charLanguages = await tp.system.prompt("Languages:");
 // This automatically renames the note to match the character's name!
 await tp.file.rename(charName);
 _%>
+
 <img src="<% imgPath %>" align="left" width="300" style="margin-right: 20px; margin-bottom: 15px; border-radius: 5px;" />
 
 > [!quote] <% charName %>
