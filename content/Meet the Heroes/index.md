@@ -7,7 +7,7 @@ views:
     name: Meet the Heroes
     filters:
       and:
-        - file.inFolder("content/Meet the Heroes")
+        - file.inFolder("Meet the Heroes")
         - file.name != "index"
     order:
       - file.name
