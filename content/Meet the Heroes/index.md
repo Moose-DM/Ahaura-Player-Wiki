@@ -1,5 +1,5 @@
 ---
-title: Meet the Heroes
+title: Meet the Heroes!
 ---
 ```base
 views:
@@ -14,4 +14,3 @@ views:
 
 ````
 
-This is a test to see if it is added to the description.
