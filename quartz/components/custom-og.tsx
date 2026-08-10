@@ -125,7 +125,7 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
             color: goldTan,
             fontSize: "4rem",
             fontFamily: fonts[0].name,
-            fontWeight: 700,
+            fontWeight: 400,
             lineHeight: 1.1,
             margin: 0,
             textAlign: "center",
