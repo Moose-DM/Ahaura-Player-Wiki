@@ -3,7 +3,7 @@ import { GlobalConfiguration } from "../cfg"
 import { SocialImageOptions, UserOpts } from "./imageHelper"
 import { QuartzPluginData } from "../plugins/vfile"
 
-export const custom-ogImageUnified: SocialImageOptions["imageStructure"] = (
+export const customOgImageUnified: SocialImageOptions["imageStructure"] = (
   cfg: GlobalConfiguration,
   userOpts: UserOpts,
   title: string,

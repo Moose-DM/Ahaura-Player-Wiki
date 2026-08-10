@@ -12,5 +12,5 @@ ExternalPlugin.CustomOgImages({
   width: 1200,
   height: 630,
   excludeRoot: false,
-  imageStructure: custom-ogImageUnified, // Call the unified component
+  imageStructure: customOgImageUnified, // Call the unified component
 })
