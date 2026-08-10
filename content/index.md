@@ -1,5 +1,7 @@
 ---
 title: Welcome to Ahaura
+socialImage: Images/Ahaura_Map.png
+description: Welcome to the Ahaura Player Wiki!
 ---
 # Map of Ahaura
 
