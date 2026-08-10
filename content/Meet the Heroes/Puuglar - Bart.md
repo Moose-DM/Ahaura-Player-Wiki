@@ -5,7 +5,6 @@ tags:
   - hero
   - bart
 image: "[[content/Images/Puuglar_1.jpg]]"
-socialImage: static/Puuglar_1.jpg
 description: Puuglar, the sneaky Bugbear played by Bart!
 ---
 <img src="Images/Puuglar_1.jpg" align="left" width="300" style="margin-right: 20px; margin-bottom: 15px; border-radius: 5px;" />
