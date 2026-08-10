@@ -2,6 +2,8 @@ import { SatoriOptions } from "satori/wasm"
 import { GlobalConfiguration } from "../cfg"
 import { SocialImageOptions, UserOpts } from "./imageHelper"
 import { QuartzPluginData } from "../plugins/vfile"
+import fs from "fs"
+import path from "path"
 
 export const customOgImage: SocialImageOptions["imageStructure"] = (
   cfg: GlobalConfiguration,
@@ -11,9 +13,19 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
   fonts: SatoriOptions["fonts"],
   fileData: QuartzPluginData,
 ) => {
-  const iconUrl = `https://${cfg.baseUrl}/static/icon.png`
+  // Read local icon directly as Base64 to prevent network fetch failures
+  let iconUrl = ""
+  try {
+    const iconPath = path.resolve("./quartz/static/icon.png")
+    const iconBuffer = fs.readFileSync(iconPath)
+    iconUrl = `data:image/png;base64,${iconBuffer.toString("base64")}`
+  } catch {
+    if (cfg.baseUrl) {
+      iconUrl = `https://${cfg.baseUrl}/static/icon.png`
+    }
+  }
 
-  // Safe font declarations with hardcoded string fallbacks
+  // Safe font resolution
   const headerFont = fonts && fonts[0] ? fonts[0].name : "Almendra"
   const bodyFont = fonts && fonts[1] ? fonts[1].name : "EB Garamond"
 
@@ -94,14 +106,18 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
             marginLeft: "1rem",
           }}
         >
-          <img
-            src={iconUrl}
-            style={{
-              width: "100%",
-              height: "100%",
-              borderRadius: "50px",
-            }}
-          />
+          {iconUrl ? (
+            <img
+              src={iconUrl}
+              width={90}
+              height={90}
+              style={{
+                width: "90px",
+                height: "90px",
+                borderRadius: "45px",
+              }}
+            />
+          ) : null}
         </div>
       </div>
 
@@ -128,7 +144,7 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
           style={{
             color: goldTan,
             fontSize: "4rem",
-            fontFamily: headerFont, // Uses headerFont variable safely
+            fontFamily: headerFont,
             fontWeight: 700,
             lineHeight: 1.1,
             margin: 0,
@@ -151,7 +167,7 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
           style={{
             color: creamText,
             fontSize: "1.75rem",
-            fontFamily: bodyFont, // Uses bodyFont variable safely
+            fontFamily: bodyFont,
             lineHeight: 1.4,
             margin: 0,
             textAlign: "center",
