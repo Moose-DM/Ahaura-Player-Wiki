@@ -1,6 +1,6 @@
 ---
 title: Welcome to Ahaura
-socialImage: Images/Ahaura_Map.png
+socialImage: static/Ahaura_Map.png
 description: Welcome to the Ahaura Player Wiki!
 ---
 # Map of Ahaura
@@ -20,6 +20,6 @@ views:
     unit: mi
 ```
 
-[[Ahaura_Map.png|View full map image]]
+[[content/Images/Ahaura_Map.png|View full map image]]
 
 # [[Meet the Heroes]]
