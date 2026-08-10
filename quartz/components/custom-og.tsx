@@ -13,6 +13,10 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
 ) => {
   const iconUrl = `https://${cfg.baseUrl}/static/icon.png`
 
+  // Safe font declarations with hardcoded string fallbacks
+  const headerFont = fonts && fonts[0] ? fonts[0].name : "Almendra"
+  const bodyFont = fonts && fonts[1] ? fonts[1].name : "EB Garamond"
+
   const parchmentTan = "#E6DBC6"
   const darkBrown = "#3C2E20"
   const goldTan = "#D7C6A3"
@@ -124,8 +128,8 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
           style={{
             color: goldTan,
             fontSize: "4rem",
-            fontFamily: fonts[0].name,
-            fontWeight: 400,
+            fontFamily: headerFont, // Uses headerFont variable safely
+            fontWeight: 700,
             lineHeight: 1.1,
             margin: 0,
             textAlign: "center",
@@ -147,7 +151,7 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
           style={{
             color: creamText,
             fontSize: "1.75rem",
-            fontFamily: fonts[1].name,
+            fontFamily: bodyFont, // Uses bodyFont variable safely
             lineHeight: 1.4,
             margin: 0,
             textAlign: "center",
