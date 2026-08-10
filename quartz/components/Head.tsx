@@ -32,19 +32,7 @@ export default (() => {
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some((e) => e.name === "CustomOgImages")
-    
-    // Ignore frontmatter `image:` (for Obsidian Bases) and force generated TSX OG image route
-    const customSocialImage = fileData.frontmatter?.socialImage
-    let ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
-
-    if (customSocialImage) {
-      ogImagePath = customSocialImage.startsWith("http")
-        ? customSocialImage
-        : `https://${cfg.baseUrl}/${customSocialImage}`
-    } else if (usesCustomOgImage && fileData.slug) {
-      const pageSlug = fileData.slug === "index" ? "index" : fileData.slug
-      ogImagePath = `https://${cfg.baseUrl}/static/og-image/${pageSlug}.png`
-    }
+    const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
 
     const coreStylesheet = css[0]?.content
     const coreScript = js.find(
@@ -81,14 +69,17 @@ export default (() => {
         <meta property="og:description" content={description} />
         <meta property="og:image:alt" content={description} />
 
-        {/* Always output proper OpenGraph image metadata */}
-        <meta property="og:image" content={ogImagePath} />
-        <meta property="og:image:url" content={ogImagePath} />
-        <meta name="twitter:image" content={ogImagePath} />
-        <meta
-          property="og:image:type"
-          content={`image/${getFileExtension(ogImagePath) ?? "png"}`}
-        />
+        {!usesCustomOgImage && (
+          <>
+            <meta property="og:image" content={ogImageDefaultPath} />
+            <meta property="og:image:url" content={ogImageDefaultPath} />
+            <meta name="twitter:image" content={ogImageDefaultPath} />
+            <meta
+              property="og:image:type"
+              content={`image/${getFileExtension(ogImageDefaultPath) ?? "png"}`}
+            />
+          </>
+        )}
 
         {cfg.baseUrl && (
           <>
