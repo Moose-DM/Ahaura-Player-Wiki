@@ -44,141 +44,119 @@ export const customOgImage: SocialImageOptions["imageStructure"] = (
         backgroundColor: parchmentTan,
         boxSizing: "border-box",
         position: "relative",
-        overflow: "hidden",
-        background: `
-          radial-gradient(at 50% 50%, transparent 40%, rgba(60, 46, 32, 0.4) 100%),
-          repeating-linear-gradient(45deg, rgba(230, 219, 198, 0.5), rgba(230, 219, 198, 0.5) 1px, transparent 1px, transparent 4px),
-          repeating-linear-gradient(135deg, rgba(230, 219, 198, 0.5), rgba(230, 219, 198, 0.5) 1px, transparent 1px, transparent 4px),
-          repeating-linear-gradient(0deg, ${parchmentTan}, ${parchmentTan} 1px, transparent 1px, transparent 15px),
-          radial-gradient(#F5EFDE 10%, #E6DBC6 50%, #C4B599 100%)
-        `,
-        boxShadow: `inset 0 0 0 30px ${parchmentTan}, inset 0 0 0 35px ${darkBrown}, 0 0 0 30px ${parchmentTan}`,
+        padding: "20px",
       }}
     >
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          pointerEvents: "none",
-          background: `
-            repeating-linear-gradient(to right, ${parchmentTan}, ${parchmentTan} 5px, transparent 5px, transparent 10px) 0 0 / 100% 30px no-repeat,
-            repeating-linear-gradient(to right, ${parchmentTan}, ${parchmentTan} 5px, transparent 5px, transparent 10px) 0 100% / 100% 30px no-repeat,
-            repeating-linear-gradient(to bottom, ${parchmentTan}, ${parchmentTan} 5px, transparent 5px, transparent 10px) 0 0 / 30px 100% no-repeat,
-            repeating-linear-gradient(to bottom, ${parchmentTan}, ${parchmentTan} 5px, transparent 5px, transparent 10px) 100% 0 / 30px 100% no-repeat
-          `,
-        }}
-      />
-
+      {/* Decorative Outer Dashed Frame */}
       <div
         style={{
           display: "flex",
-          alignItems: "center",
-          justifyContent: "flex-start",
-          height: "210px",
+          flexDirection: "column",
+          height: "100%",
           width: "100%",
-          backgroundColor: parchmentTan,
-          padding: "2rem",
+          border: `4px dashed ${darkBrown}`,
+          boxSizing: "border-box",
           position: "relative",
-          background: `
-            repeating-linear-gradient(45deg, rgba(230, 219, 198, 0.5), rgba(230, 219, 198, 0.5) 1px, transparent 1px, transparent 4px),
-            repeating-linear-gradient(135deg, rgba(230, 219, 198, 0.5), rgba(230, 219, 198, 0.5) 1px, transparent 1px, transparent 4px),
-            linear-gradient(to bottom, transparent calc(100% - 20px), ${parchmentTan} calc(100% - 20px), ${parchmentTan} 100%),
-            ${parchmentTan}
-          `,
-          boxShadow: `0 10px 20px rgba(60, 46, 32, 0.3)`,
         }}
       >
+        {/* Header Bar */}
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            justifyContent: "center",
-            width: "100px",
-            height: "100px",
-            border: `3px solid ${darkBrown}`,
-            borderRadius: "50px",
-            overflow: "hidden",
+            justifyContent: "flex-start",
+            height: "180px",
+            width: "100%",
             backgroundColor: parchmentTan,
-            padding: "5px",
-            marginLeft: "1rem",
+            padding: "2rem",
+            boxSizing: "border-box",
+            borderBottom: `4px solid ${darkBrown}`,
           }}
         >
-          {iconUrl ? (
-            <img
-              src={iconUrl}
-              width={90}
-              height={90}
-              style={{
-                width: "90px",
-                height: "90px",
-                borderRadius: "45px",
-              }}
-            />
-          ) : null}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "100px",
+              height: "100px",
+              border: `3px solid ${darkBrown}`,
+              borderRadius: "50px",
+              overflow: "hidden",
+              backgroundColor: parchmentTan,
+              marginLeft: "1rem",
+            }}
+          >
+            {iconUrl ? (
+              <img
+                src={iconUrl}
+                width={90}
+                height={90}
+                style={{
+                  width: "90px",
+                  height: "90px",
+                  borderRadius: "45px",
+                }}
+              />
+            ) : null}
+          </div>
         </div>
-      </div>
 
-      <div
-        style={{
-          flexGrow: 1,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "100%",
-          backgroundColor: darkBrown,
-          padding: "3rem",
-          position: "relative",
-          background: `
-            repeating-linear-gradient(0deg, rgba(60, 46, 32, 0.8), rgba(60, 46, 32, 0.8) 1px, transparent 1px, transparent 15px),
-            ${darkBrown}
-          `,
-          border: `30px solid ${parchmentTan}`,
-          boxShadow: `inset 0 0 0 5px ${goldTan}`,
-        }}
-      >
-        <h1
-          style={{
-            color: goldTan,
-            fontSize: "4rem",
-            fontFamily: headerFont,
-            fontWeight: 700,
-            lineHeight: 1.1,
-            margin: 0,
-            textAlign: "center",
-          }}
-        >
-          {title}
-        </h1>
+        {/* Content Box */}
         <div
           style={{
-            width: "150px",
-            height: "4px",
-            backgroundColor: goldTan,
-            marginTop: "1.5rem",
-            marginBottom: "1.5rem",
-            borderRadius: "2px",
-          }}
-        />
-        <p
-          style={{
-            color: creamText,
-            fontSize: "1.75rem",
-            fontFamily: bodyFont,
-            lineHeight: 1.4,
-            margin: 0,
-            textAlign: "center",
-            lineClamp: 3,
-            WebkitLineClamp: 3,
-            display: "-webkit-box",
-            WebkitBoxOrient: "vertical",
+            flexGrow: 1,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            backgroundColor: darkBrown,
+            padding: "3rem",
+            boxSizing: "border-box",
+            border: `10px solid ${parchmentTan}`,
           }}
         >
-          {description}
-        </p>
+          <h1
+            style={{
+              color: goldTan,
+              fontSize: "4rem",
+              fontFamily: headerFont,
+              fontWeight: 700,
+              lineHeight: 1.1,
+              margin: 0,
+              textAlign: "center",
+            }}
+          >
+            {title}
+          </h1>
+          <div
+            style={{
+              width: "150px",
+              height: "4px",
+              backgroundColor: goldTan,
+              marginTop: "1.5rem",
+              marginBottom: "1.5rem",
+              borderRadius: "2px",
+            }}
+          />
+          <p
+            style={{
+              color: creamText,
+              fontSize: "1.75rem",
+              fontFamily: bodyFont,
+              lineHeight: 1.4,
+              margin: 0,
+              textAlign: "center",
+              lineClamp: 3,
+              WebkitLineClamp: 3,
+              display: "-webkit-box",
+              WebkitBoxOrient: "vertical",
+            }}
+          >
+            {description}
+          </p>
+        </div>
       </div>
     </div>
   )
