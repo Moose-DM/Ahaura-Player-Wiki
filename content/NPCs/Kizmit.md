@@ -4,7 +4,7 @@ draft: false
 tags:
   - NPC
   - bart
-image: [[Kismit.webp]]
+image: "[[Kismit.webp]]"
 description: Kizmit the Goblin
 ---
 > [!infobox|right]
@@ -14,7 +14,7 @@ description: Kizmit the Goblin
 > **Race**: Goblin
 > **Gender**: Female
 > **Last Known Location**: ???
-> **Relationship**: Very Good
+> **Party Standing**: Very Good
 > **Affiliation:** The Crooked Finger
 > **Status:** Alive
 
