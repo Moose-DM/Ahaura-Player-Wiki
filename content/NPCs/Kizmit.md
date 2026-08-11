@@ -4,7 +4,7 @@ draft: false
 tags:
   - NPC
   - bart
-image: "[[Kiszit.webp]]"
+image: "[[Kizmit.webp]]"
 description: Kizmit the Goblin
 ---
 > [!infobox|right]
