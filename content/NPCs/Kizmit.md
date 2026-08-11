@@ -29,3 +29,13 @@ This is some text to fill this space so I have some testing.
 | --- | --- |
 |   [[Puuglar - Bart]] |   Mother  |
 
+## Interactions
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Session",
+  L.text AS "Reference"
+FROM "content/Session Journals"
+FLATTEN file.lists AS L
+WHERE contains(L.outlinks, this.file.link)
+SORT file.name ASC
+```

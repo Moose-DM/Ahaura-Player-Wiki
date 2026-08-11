@@ -54,3 +54,14 @@ description: <% desc %>
 | Name | Relationship |
 | --- | --- |
 |  |  |
+
+## Interactions
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Session",
+  L.text AS "Reference"
+FROM "content/Session Journals"
+FLATTEN file.lists AS L
+WHERE contains(L.outlinks, this.file.link)
+SORT file.name ASC
+```
