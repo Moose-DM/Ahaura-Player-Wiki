@@ -17,8 +17,8 @@ configuration:
     cdnCaching: true
     typography:
       title: UnifrakturMaguntia
-      header: Almendra #MedievalSharp
-      body: Jim Nightshade #EB Garamond
+      header: Almendra
+      body: Jim Nightshade
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -203,9 +203,9 @@ plugins:
   - source: "@quartz-community/explorer"
     enabled: true
     options:
-        title: Explorer
-        folderClickBehavior: link
-        folderDefaultState: open
+      title: Explorer
+      folderClickBehavior: link
+      folderDefaultState: open
     layout:
       position: left
       priority: 50
@@ -334,6 +334,16 @@ plugins:
       defaultTitle: Untitled
       defaultDescription: No description provided
     order: 50
+  - source: github:quartz-community/explorer
+    enabled: true
+    options:
+      folderDefaultState: collapsed
+      folderClickBehavior: link
+      useSavedState: true
+    order: 50
+    layout:
+      position: left
+      priority: 50
 layout:
   groups:
     toolbar:
