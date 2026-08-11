@@ -115,7 +115,7 @@ export default (() => {
                   e.preventDefault();
                   e.stopPropagation();
                   e.stopImmediatePropagation();
-                  window.location.href = "/";
+                  window.location.href = "https://moose-dm.github.io/Ahaura-Player-Wiki/";
                 }
               }, true);
             `,
