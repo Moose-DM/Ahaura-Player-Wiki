@@ -21,7 +21,7 @@ const partyStanding = partyStandingInput ? partyStandingInput.trim() : "???";
 const government = governmentInput ? governmentInput.trim() : "???";
 const status = statusInput ? statusInput.trim() : "???";
 
-const fmImage = img ? `"[[${img}]]"` : '""';
+const fmImage = img ? `[[${img}]]` : '""';
 const infoImage = img ? `![[${img}|300]]` : `![[???|300]]`;
 -%>
 ---
@@ -32,10 +32,15 @@ tags:
   - <% region %>
 image: <% fmImage %>
 description: <% desc %>
+marker:
+  - coordinates: 
+    icon: lucide-castle
+    colour: "#e2c505"
+    minZoom: -3
+    mapName: Ahaura_Map
 ---
 
-> [!infobox|right]
-> ## <% noteTitle %>
+> [!infobox] <% noteTitle %>
 > <% infoImage %>
 > **Region:** <% region %>
 > **Type:** <% type %>
@@ -44,7 +49,7 @@ description: <% desc %>
 > **Government:** <% government %>
 > **Status:** <% status %>
 
-# Overview
+## Overview
 
 
 ## Attributes
@@ -52,7 +57,9 @@ description: <% desc %>
 
 ## Rumors
 
+
 ## Interactions
+
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Session",
@@ -61,4 +68,3 @@ FROM "content/Session Journals"
 FLATTEN file.lists AS L
 WHERE contains(L.outlinks, this.file.link)
 SORT file.name ASC
-```

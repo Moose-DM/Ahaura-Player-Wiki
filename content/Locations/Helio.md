@@ -6,6 +6,12 @@ tags:
   - Verdance
 image: "[[Helio.webp]]"
 description: Capital City of Verdance
+marker:
+  - coordinates: 1710, 2661
+    icon: lucide-castle
+    colour: "#e2c505"
+    minZoom: -3
+    mapName: Ahaura_Map
 ---
 
 > [!infobox|right]
