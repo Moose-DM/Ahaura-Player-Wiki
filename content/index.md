@@ -21,4 +21,7 @@ views:
 
 [[Ahaura_Map.webp|View full map image]]
 
-# [[Meet the Heroes]]
+# 1.  [[Meet the Heroes]]
+# 2. [[NPCs]]
+# 3. [[Organizations]]
+# 4. [[Locations]]
