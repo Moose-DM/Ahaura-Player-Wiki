@@ -115,3 +115,14 @@ footer          /* Maps to: footer */ {
   padding: 2rem; 
   border-radius: 8px;
 }
+
+/* Disable pointer clicks on the explorer title collapse button */
+button#explorer {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Re-enable pointer events for the rest of the explorer links */
+.explorer-content {
+  pointer-events: auto;
+}
