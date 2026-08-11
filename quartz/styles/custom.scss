@@ -116,13 +116,18 @@ footer          /* Maps to: footer */ {
   border-radius: 8px;
 }
 
-/* Disable pointer clicks on the explorer title collapse button */
-button#explorer {
-  pointer-events: none;
-  cursor: default;
+/* Prevent ONLY the top-level Explorer panel from collapsing */
+.explorer.collapsed > .explorer-content,
+div[class*="explorer"].collapsed > .explorer-content {
+  display: block !important;
+  max-height: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-/* Re-enable pointer events for the rest of the explorer links */
-.explorer-content {
-  pointer-events: auto;
+/* Hide the fold arrow ONLY on the main title button, leaving folder arrows intact */
+.explorer > button svg,
+.explorer > button .fold,
+.explorer > .explorer-title svg {
+  display: none !important;
 }

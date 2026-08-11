@@ -104,6 +104,27 @@ export default (() => {
             return resource
           }
         })}
+
+        {/* Override Explorer header collapse to redirect Home instead */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener("nav", () => {
+                const mainTitleBtn = document.querySelector(".explorer > button, .explorer > div > button");
+                if (mainTitleBtn && !mainTitleBtn.closest(".explorer-content")) {
+                  const cleanBtn = mainTitleBtn.cloneNode(true);
+                  mainTitleBtn.parentNode.replaceChild(cleanBtn, mainTitleBtn);
+                  cleanBtn.style.cursor = "pointer";
+                  cleanBtn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.location.href = "/";
+                  });
+                }
+              });
+            `,
+          }}
+        />
       </head>
     )
   }
