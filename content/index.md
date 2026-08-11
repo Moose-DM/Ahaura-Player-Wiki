@@ -9,7 +9,7 @@ views:
   - type: leaflet-map
     name: Ahaura Interactive Map
     mapName: Ahaura_Map
-    image: Ahaura_Map.png
+    image: Ahaura_Map.webp
     height: 600
     minZoom: -3
     maxZoom: 3
@@ -19,6 +19,6 @@ views:
     unit: mi
 ```
 
-[[content/Images/Ahaura_Map.png|View full map image]]
+[[Ahaura_Map.webp|View full map image]]
 
 # [[Meet the Heroes]]
