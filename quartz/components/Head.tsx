@@ -105,23 +105,19 @@ export default (() => {
           }
         })}
 
-        {/* Override Explorer header collapse to redirect Home instead */}
+        {/* Capture click events on the Explorer title before Quartz can process them */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              document.addEventListener("nav", () => {
-                const mainTitleBtn = document.querySelector(".explorer > button, .explorer > div > button");
-                if (mainTitleBtn && !mainTitleBtn.closest(".explorer-content")) {
-                  const cleanBtn = mainTitleBtn.cloneNode(true);
-                  mainTitleBtn.parentNode.replaceChild(cleanBtn, mainTitleBtn);
-                  cleanBtn.style.cursor = "pointer";
-                  cleanBtn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    window.location.href = "/";
-                  });
+              document.addEventListener("click", (e) => {
+                const titleBtn = e.target.closest(".explorer > button, button#explorer, .explorer-title, .explorer .title-button, [class*='explorer'] > button");
+                if (titleBtn && !e.target.closest(".explorer-content")) {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  e.stopImmediatePropagation();
+                  window.location.href = "/";
                 }
-              });
+              }, true);
             `,
           }}
         />
