@@ -27,12 +27,12 @@ description: Capital City of Verdance
 ## Rumors
 
 ## Interactions
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Session",
-  L.text AS "Reference"
-FROM "content/Session Journals"
-FLATTEN file.lists AS L
-WHERE contains(L.outlinks, this.file.link)
-SORT file.name ASC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
+
+| Session                                              | Reference                                              |
+| ---------------------------------------------------- | ------------------------------------------------------ |
+| [[Session 1]] | The party went to [[Helio]]. This is just a test note. |
+
+
+<!-- SerializedQuery END -->

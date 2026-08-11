@@ -1,3 +1,4 @@
 - The party met [[Kizmit]] for the first time. This is just a test note.
-- The party met someone in the [[Crooked Finger]]. This is just a test note.
+- The party met someone in [[The Crooked Finger]]. This is just a test note.
 - The party went to [[Helio]]. This is just a test note.
+-  This is s test to see if it will update [[Kizmit]]

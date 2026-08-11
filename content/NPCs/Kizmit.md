@@ -30,12 +30,13 @@ This is some text to fill this space so I have some testing.
 |   [[Puuglar - Bart]] |   Mother  |
 
 ## Interactions
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Session",
-  L.text AS "Reference"
-FROM "content/Session Journals"
-FLATTEN file.lists AS L
-WHERE contains(L.outlinks, this.file.link)
-SORT file.name ASC
-```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
+
+| Session                                              | Reference                                                              |
+| ---------------------------------------------------- | ---------------------------------------------------------------------- |
+| [[Session 1]] | The party met [[Kizmit]] for the first time. This is just a test note. |
+| [[Session 1]] | This is s test to see if it will update [[Kizmit]]                     |
+
+
+<!-- SerializedQuery END -->
