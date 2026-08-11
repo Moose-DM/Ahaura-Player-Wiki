@@ -1,51 +1,39 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import * as ExternalPlugin from "./.quartz/plugins"
+import type { ExplorerOptions } from "./.quartz/plugins"
 
-// Retrieve Explorer from the registered plugin registry
-const Explorer = 
-  ExternalPlugin.plugins["explorer"]?.Explorer ?? 
-  ExternalPlugin.plugins["@quartz-community/explorer"]?.Explorer ??
-  (ExternalPlugin as Record<string, any>).Explorer
+const sortFn: ExplorerOptions["sortFn"] = (a, b) => {
+  const customFolderOrder = [
+    "Meet the Heroes",
+    "NPCs",
+    "Organizations",
+    "Locations",
+    "Session Journals",
+  ]
 
-if (Explorer) {
-  Explorer({
-    sortFn: (a, b) => {
-      const customFolderOrder = [
-        "Meet the Heroes",
-        "NPCs",
-        "Organizations",
-        "Locations",
-        "Session Journals",
-      ]
+  // 1. If both are folders, apply custom folder ordering
+  if (a.isFolder && b.isFolder) {
+    const idxA = customFolderOrder.indexOf(a.displayName)
+    const idxB = customFolderOrder.indexOf(b.displayName)
 
-      const nameA = a.displayName ?? a.name
-      const nameB = b.displayName ?? b.name
+    if (idxA !== -1 && idxB !== -1) return idxA - idxB
+    if (idxA !== -1) return -1
+    if (idxB !== -1) return 1
 
-      // 1. Keep folders positioned above individual files
-      const isFolderA = !a.file
-      const isFolderB = !b.file
+    return a.displayName.localeCompare(b.displayName, undefined, { numeric: true })
+  }
 
-      if (isFolderA && !isFolderB) return -1
-      if (!isFolderA && isFolderB) return 1
+  // 2. Keep folders above files
+  if (a.isFolder && !b.isFolder) return -1
+  if (!a.isFolder && b.isFolder) return 1
 
-      // 2. Apply custom folder ordering
-      if (isFolderA && isFolderB) {
-        const idxA = customFolderOrder.indexOf(nameA)
-        const idxB = customFolderOrder.indexOf(nameB)
-
-        if (idxA !== -1 && idxB !== -1) return idxA - idxB
-        if (idxA !== -1) return -1
-        if (idxB !== -1) return 1
-
-        return nameA.localeCompare(nameB, undefined, { numeric: true })
-      }
-
-      // 3. Alphabetical order for files within folders
-      return nameA.localeCompare(nameB, undefined, { numeric: true })
-    },
-    order: ["filter", "map", "sort"],
-  })
+  // 3. Alphabetical order for files within folders
+  return a.displayName.localeCompare(b.displayName, undefined, { numeric: true })
 }
+
+ExternalPlugin.Explorer({
+  sortFn,
+})
 
 const config = await loadQuartzConfig()
 export default config
