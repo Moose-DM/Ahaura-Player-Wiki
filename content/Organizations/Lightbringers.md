@@ -27,7 +27,7 @@ The legendary Lightbringers! This band of heroes are looked up to by many across
 
 | Name | Role | Notes |
 | --- | --- | --- |
-| [[Sir Escanor le Grand]]|Leader/Paladin| |
+| [[Sir Escanor le Grand]]|Leader/Paladin| Dead|
 | [[Iemir Gilverloo]]| Cleric  | |
 | [[Brother Smiggles]]| Monk| |
 | [[Tensor]]| Wizard||

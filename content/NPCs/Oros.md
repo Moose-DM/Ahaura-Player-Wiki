@@ -22,7 +22,7 @@ description: The evil necromancer vanquished by the Lightbringers
 > |**Status** |Dead|
 
 # Overview
-A powerful Necromancer who laid siege to [[Helio]]. Defeated by the [[Lightbringers]]
+A powerful Necromancer who laid siege to [[Helio]]. Defeated by the [[Lightbringers]].
 
 ## Relationships
 

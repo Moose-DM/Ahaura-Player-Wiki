@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: Lord Ferdinand Brightly, High King of Verdance
 draft: false
 tags:
   - NPC
