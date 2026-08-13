@@ -52,4 +52,4 @@ views:
 - **[[Session Journals/index|Session Journals]]** — Notes on each of our sessions. I will take some but please use the Journal in Foundry so I can copy your notes over!
     
 
-> [!tip]  NPC ,Location, and Organization  pages have  tables that show the Party's interaction with them as referenced in the Session Journals!.
+> [!tip]  NPC ,Location, and Organization  pages have  tables that show the Party's interaction with them as referenced in the Session Journals!
