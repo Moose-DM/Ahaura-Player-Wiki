@@ -36,12 +36,15 @@ description: <% desc %>
 > [!infobox|right]
 > ## <% noteTitle %>
 > <% infoImage %>
-> **Type:** <% type %>
-> **Leader:** <% leader %>
-> **Base of Operations:** <% base %>
-> **Affiliation:** <% affiliation %>
-> **Party Standing:** <% partyStanding %>
-> **Status:** <% status %>
+> 
+> |||
+> |---|---|
+> |**Type**| <% type %>|
+> |**Leader**| <% leader %>|
+> |**Base of Operations**| <% base %>|
+> |**Affiliation**| <% affiliation %>|
+> |**Party Standing**| <% partyStanding %>|
+> |**Status**| <% status %>|
 
 # Overview
 

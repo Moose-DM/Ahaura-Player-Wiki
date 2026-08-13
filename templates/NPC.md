@@ -38,13 +38,16 @@ description: <% desc %>
 > [!infobox|right]
 > ## <% noteTitle %>
 > <% infoImage %>
-> **Age:** <% age %>
-> **Race:** <% race %>
-> **Gender:** <% gender %>
-> **Last Known Location:** <% location %>
-> **Party Standing:** <% PartyStanding %>
-> **Affiliation:** <% affiliation %>
-> **Status:** <% status %>
+> 
+> |||
+> |---|---|
+> |**Age** |<% age %>|
+> |**Race**| <% race %>|
+> |**Gender**| <% gender %>|
+> |**Last Known Location**| <% location %>|
+> |**Party Standing**| <% PartyStanding %>|
+> |**Affiliation**| <% affiliation %>|
+> |**Status**| <% status %>|
 
 # Overview
 

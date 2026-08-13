@@ -1,38 +1,34 @@
 ---
-title: The Crooked Finger
-draft: true
+title: Oros
+draft: false
 tags:
-  - Organization
-image: "[[Crooked Finger.webp]]"
-description: A test organization
+  - NPC
+image: "[[unkown.webp]]"
+description: The evil necromancer vanquished by the Lightbringers
 ---
 
 > [!infobox|right]
-> ## The Crooked Finger
-> ![[Crooked Finger.webp|300]]
+> ## Oros
+> ![[unkown.webp|300]]
 > 
 > |||
 > |---|---|
-> |**Type**|Test Guild|
-> |**Leader**| Test|
-> |**Base of Operations**| Hidden|
-> |**Affiliation**| Test|
-> |**Party Standing**| Test|
-> |**Status**| Working|
+> |**Age** |???|
+>| **Race**| ???|
+> |**Gender**| Male|
+> |**Last Known Location**| Outside of Helio|
+> |**Party Standing** |N/A|
+> |**Affiliation**| N/A|
+> |**Status** |Dead|
 
 # Overview
+A powerful Necromancer who laid siege to [[Helio]]. Defeated by the [[Lightbringers]]
 
+## Relationships
 
-## Key Members
-
-| Name | Role | Notes |
-| --- | --- | --- |
-|  |  |  |
-
-## Goals & Operations
-
-
-## History
+| Name | Relationship |
+| --- | --- |
+|  |  |
 
 ## Interactions
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->

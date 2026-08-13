@@ -42,12 +42,15 @@ marker:
 
 > [!infobox] <% noteTitle %>
 > <% infoImage %>
-> **Region:** <% region %>
-> **Type:** <% type %>
-> **Affiliation:** <% affiliation %>
-> **Party Standing:** <% partyStanding %>
-> **Government:** <% government %>
-> **Status:** <% status %>
+> 
+> ||||
+> |---|---|
+> |**Region**| <% region %>|
+> |**Type** |<% type %>|
+> |**Affiliation**| <% affiliation %>|
+> |**Party Standing**| <% partyStanding %>|
+> |**Government**| <% government %>|
+> |**Status**| <% status %>|
 
 ## Overview
 
