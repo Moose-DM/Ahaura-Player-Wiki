@@ -22,7 +22,7 @@ description: Kizmit the Goblin
 > |**Status** |Alive|
 
 # Overview
-Kizmit is an old goblin. She is the adoptive mother of [[Puuglar - Bart| Puuglar]]. This information is just for testing.
+Kizmit is an old goblin. She is the adoptive mother of [[Puuglar - Bart OLD| Puuglar]]. This information is just for testing.
 
 ##  Role in the Crooked Finger
 This is some text to fill this space so I have some testing.
@@ -30,7 +30,7 @@ This is some text to fill this space so I have some testing.
 
 |Name | Relationship    |
 | --- | --- |
-|   [[Puuglar - Bart]] |   Mother  |
+|   [[Puuglar - Bart OLD]] |   Mother  |
 
 ## Interactions
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->

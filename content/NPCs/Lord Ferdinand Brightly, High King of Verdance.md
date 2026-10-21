@@ -30,7 +30,7 @@ He rules along side his wife [[Queen Isabelle]] whom he shares a son with, [[Pri
 
 | Name | Relationship |
 | --- | --- |
-| [[Prince Mateo Brightly]] | Son |
+| Prince Mateo Brightly | Son |
 | Queen Isabelle Brightly | Wife|
 
 

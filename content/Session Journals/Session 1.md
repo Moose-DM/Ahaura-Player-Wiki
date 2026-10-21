@@ -1,0 +1,32 @@
+---
+title: Session 1
+draft: false
+tags:
+  - notes
+---
+- The Winter Solstice festival took place in [[Calchester]] marking the start of longer days which means more of [[Zenith| Zenith's]] warming glow!
+- [[Puuglar - Bart| Puuglar]] and [[Skrap]] used the festival as a distraction as they broke into a nearby house to gather supplies
+- [[Puuglar - Bart|Puuglar]] peaked his head into the window and saw [[Skrap]] was no where to be seen, panicking he fell on his face and spotted footprints that lead to somebody dragging an unconscious [[Skrap]] away. [[Puuglar - Bart|Puuglar]] ran after him.
+- After he finished painting a fantastic caricature of some festival goers, a hooded figure attempted to kidnap [[Clovis Featherbottom - Pat|Clovis]]
+- Failing to knock him out, the cloaked figure ran and Clovis knocked him out with a sleep spell
+- [[Clovis Featherbottom - Pat|Clovis]] tied up the perp and went to tell the local guard, [[Luglight Thorne - Mike|Luglight]], who he coincidentally painted a graduate portrait at his graduation ceremony
+- Just as they were deciding what to with the perp, they heard a gun shot in the crowd
+- [[Clarence - TJ|Clarence]] also had a kidnapping attempt made on him, and as the perp fled, he drew his pistol and missed a shot
+- The three decided to give chase to the fleeing cloaked figure
+- The cloaked figures ran in the direction of [[Thurnador - Thomas|Thurnador]] who was heading into the town for the festival
+- [[Thurnador - Thomas|Thurnador]] crouched and took out two of the fleeing men's feet, and the group interrogated the bunch
+- They learned the cloaked figure children had been kidnapped by the bandit gang [[The Black Foot]], and they were told if they did not find new captives to sacrifice, their kids would be killed. Not knowing what else to do they waited for the chaos of the festival to try and kidnap some out of town folk.
+- The group agreed to help them, and decided they would take the place of captives, with [[Puuglar - Bart|Puuglar]] sneaking behind
+- [[Puuglar - Bart|Puuglar]] offered one of the cloaked men, Tim, some Razz candy (made by [[Skrap]]), and he accepted, fearing what would happen if he declined
+- After heading to town to rest before their plan, [[Luglight Thorne - Mike|Luglight's]] squire [[Cornelius]], rushed to his side and introduced himself to the group as a [[TORCH Knights | Little Light]], a training program for children to become [[TORCH Knights]]
+- For seemingly no reason at all, [[Thurnador - Thomas|Thurnador]] took offense to this child, and used the pommel of his sword to knock [[Cornelius]] out. Brewing a feud between [[Luglight Thorne - Mike|Luglight]] and [[Thurnador - Thomas|Thurnador]]
+- After taking [[Cornelius]] to the Inn to rest up, the group got some rest themselves
+- In the morning Tim feverishly knocked on the door of [[Puuglar - Bart|Puuglar]], asking if he had anymore Razz. He felt much better after getting some more of the candy
+- The group made their way to [[The Black Foot]] camp in loose binding so they could strike at any time
+- Their plan worked, and the cloaked men left with their children and the group went to take their place in the cage
+- [[Clovis Featherbottom - Pat|Clovis]] quickly cast a sleep spell, putting two of the bandits to sleep, and the group quickly killed the other 2
+- The remaining bandits were tied up and integrated saying they only knew that their Captain Ramsay Smokes, said the children were too weak, and the would not get the full payment, which is why they sent the ramson note to the families
+- The group waited for Ramsay's arrival, with [[Clovis Featherbottom - Pat|Clovis]] and [[Luglight Thorne - Mike|Luglight]] disguising themselves as bandits. Ramsay bought the story, and celebrated with beer and meat
+- After passing out from drinking, [[Clovis Featherbottom - Pat|Clovis]] and [[Luglight Thorne - Mike|Luglight]]] tied Ramsay up, and let out the other's to kill the two bandits he came from
+- [[Puuglar - Bart|Puuglar]] gave Ramsay from Razz to sober him up and he relayed what he knew
+- He offered to get you an audience with Bandit Leader of [[The Black Foot]] , [[One Eyed Windham]]. She resides in a large bandit encampment not far from town. All he knows is he gets paid when he brings sacrifices to camp. [[The Black Foot]] does not sacrifice these people, they just sell them to a buyer. One Eyed Windham will know what's going on.

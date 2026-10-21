@@ -42,8 +42,9 @@ The Templar's Order of the Radiant Corona of Heaven (TORCH Knights) are the Roya
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session | Reference |
-| ------- | --------- |
+| Session                                              | Reference                                                                                                                                                                                                                                                                |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [[Session 1]] | After heading to town to rest before their plan, [[Luglight Thorne - Mike\|Luglight's]] squire [[Cornelius]], rushed to his side and introduced himself to the group as a [[TORCH Knights \| Little Light]], a training program for children to become [[TORCH Knights]] |
 
 
 <!-- SerializedQuery END -->
