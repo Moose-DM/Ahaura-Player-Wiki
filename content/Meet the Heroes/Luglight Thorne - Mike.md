@@ -67,8 +67,13 @@ aliases: Luglight
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session | Reference |
-| ------- | --------- |
+| Session                                              | Reference                                                                                                                                                                                                                                                                |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [[Session 1]] | [[Clovis Featherbottom - Pat\|Clovis]] tied up the perp and went to tell the local guard, [[Luglight Thorne - Mike\|Luglight]], who he coincidentally painted a graduate portrait at his graduation ceremony                                                             |
+| [[Session 1]] | After heading to town to rest before their plan, [[Luglight Thorne - Mike\|Luglight's]] squire [[Cornelius]], rushed to his side and introduced himself to the group as a [[TORCH Knights \| Little Light]], a training program for children to become [[TORCH Knights]] |
+| [[Session 1]] | For seemingly no reason at all, [[Thurnador - Thomas\|Thurnador]] took offense to this child, and used the pommel of his sword to knock [[Cornelius]] out. Brewing a feud between [[Luglight Thorne - Mike\|Luglight]] and [[Thurnador - Thomas\|Thurnador]]             |
+| [[Session 1]] | The group waited for Ramsay's arrival, with [[Clovis Featherbottom - Pat\|Clovis]] and [[Luglight Thorne - Mike\|Luglight]] disguising themselves as bandits. Ramsay bought the story, and celebrated with beer and meat                                                 |
+| [[Session 1]] | After passing out from drinking, [[Clovis Featherbottom - Pat\|Clovis]] and [[Luglight Thorne - Mike\|Luglight]]] tied Ramsay up, and let out the other's to kill the two bandits he came from                                                                           |
 
 
 <!-- SerializedQuery END -->

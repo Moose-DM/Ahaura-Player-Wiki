@@ -13,10 +13,10 @@ aliases: Clarence
 > [!Quote|author mark no-title] Clarence
 >  
 
-<table>
-  <tr><th>Class</th><th>Level</th><th>Subclass</th><th>Race</th></tr>
-  <tr><td>Artificer</td><td>2</td><td>Maverick</td><td>Human</td></tr>
-</table>
+
+  |Class|LevelSubclass</th><th>Race</th></tr>
+  Artificer<>2</td><td>Maverick</td><td>Human</td></tr>
+
 
 <table>
   <tr><th>Alignment</th><th>Background</th><th>Languages</th></tr>
@@ -67,8 +67,9 @@ aliases: Clarence
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session | Reference |
-| ------- | --------- |
+| Session                                              | Reference                                                                                                                         |
+| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [[Session 1]] | [[Clarence - TJ\|Clarence]] also had a kidnapping attempt made on him, and as the perp fled, he drew his pistol and missed a shot |
 
 
 <!-- SerializedQuery END -->
