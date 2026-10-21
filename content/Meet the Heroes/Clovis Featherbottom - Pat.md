@@ -67,13 +67,8 @@ aliases: Clovis
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session                                              | Reference                                                                                                                                                                                                                |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [[Session 1]] | After he finished painting a fantastic caricature of some festival goers, a hooded figure attempted to kidnap [[Clovis Featherbottom - Pat\|Clovis]]                                                                     |
-| [[Session 1]] | [[Clovis Featherbottom - Pat\|Clovis]] tied up the perp and went to tell the local guard, [[Luglight Thorne - Mike\|Luglight]], who he coincidentally painted a graduate portrait at his graduation ceremony             |
-| [[Session 1]] | [[Clovis Featherbottom - Pat\|Clovis]] quickly cast a sleep spell, putting two of the bandits to sleep, and the group quickly killed the other 2                                                                         |
-| [[Session 1]] | The group waited for Ramsay's arrival, with [[Clovis Featherbottom - Pat\|Clovis]] and [[Luglight Thorne - Mike\|Luglight]] disguising themselves as bandits. Ramsay bought the story, and celebrated with beer and meat |
-| [[Session 1]] | After passing out from drinking, [[Clovis Featherbottom - Pat\|Clovis]] and [[Luglight Thorne - Mike\|Luglight]]] tied Ramsay up, and let out the other's to kill the two bandits he came from                           |
+| Session | Reference |
+| ------- | --------- |
 
 
 <!-- SerializedQuery END -->
