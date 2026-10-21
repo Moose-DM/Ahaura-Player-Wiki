@@ -13,9 +13,9 @@ aliases: Clarence
 > [!Quote|author mark no-title] Clarence
 >  
 
-
-  |Class|LevelSubclass</th><th>Race</th></tr>
-  Artificer<>2</td><td>Maverick</td><td>Human</td></tr>
+<table>
+   <tr><th>Class</th><th>Level</th><th>Subclass</th><th>Race</th></tr>
+ </th><td> Artificer</td><td>2</td><td>Maverick</td><td>Human</td></tr>
 
 
 <table>
