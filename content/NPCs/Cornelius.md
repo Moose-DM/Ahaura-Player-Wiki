@@ -38,6 +38,7 @@ Cornelius is spry young squire training to become a [[TORCH Knights | TORCK Knig
 | [[Session 1]] | After heading to town to rest before their plan, [[Luglight Thorne - Mike\|Luglight's]] squire [[Cornelius]], rushed to his side and introduced himself to the group as a [[TORCH Knights \| Little Light]], a training program for children to become [[TORCH Knights]] |
 | [[Session 1]] | For seemingly no reason at all, [[Thurnador - Thomas\|Thurnador]] took offense to this child, and used the pommel of his sword to knock [[Cornelius]] out. Brewing a feud between [[Luglight Thorne - Mike\|Luglight]] and [[Thurnador - Thomas\|Thurnador]]             |
 | [[Session 1]] | After taking [[Cornelius]] to the Inn to rest up, the group got some rest themselves                                                                                                                                                                                     |
+| [[Session 2]] | On the way [[Cornelius]] caught up with the party and gave them healing potions. [[Thurnador - Thomas\|Thurnador]] also gave him a heartfelt apology for his previous actions.                                                                                           |
 
 
 <!-- SerializedQuery END -->

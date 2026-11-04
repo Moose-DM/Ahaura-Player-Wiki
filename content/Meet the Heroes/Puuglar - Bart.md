@@ -66,8 +66,18 @@ aliases: Puuglar
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session | Reference |
-| ------- | --------- |
+| Session                                              | Reference                                                                                                                                                                                                                                                            |
+| ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Session 1]] | [[Puuglar - Bart\| Puuglar]] and [[Skrap]] used the festival as a distraction as they broke into a nearby house to gather supplies                                                                                                                                   |
+| [[Session 1]] | [[Puuglar - Bart\|Puuglar]] peaked his head into the window and saw [[Skrap]] was no where to be seen, panicking he fell on his face and spotted footprints that lead to somebody dragging an unconscious [[Skrap]] away. [[Puuglar - Bart\|Puuglar]] ran after him. |
+| [[Session 1]] | The group agreed to help them, and decided they would take the place of captives, with [[Puuglar - Bart\|Puuglar]] sneaking behind                                                                                                                                   |
+| [[Session 1]] | [[Puuglar - Bart\|Puuglar]] offered one of the cloaked men, Tim, some Razz candy (made by [[Skrap]]), and he accepted, fearing what would happen if he declined                                                                                                      |
+| [[Session 1]] | In the morning Tim feverishly knocked on the door of [[Puuglar - Bart\|Puuglar]], asking if he had anymore Razz. He felt much better after getting some more of the candy                                                                                            |
+| [[Session 1]] | [[Puuglar - Bart\|Puuglar]] gave Ramsay from Razz to sober him up and he relayed what he knew                                                                                                                                                                        |
+| [[Session 2]] | [[Puuglar - Bart\|Puuglar]], afraid of the water, closed his eyes and held onto [[Thurnador - Thomas\|Thurnador's]] cloak                                                                                                                                            |
+| [[Session 2]] | The party dispatched two bone crabs, [[Puuglar - Bart\|Puuglar]] kept his eyes closed but still managed to help                                                                                                                                                      |
+| [[Session 2]] | [[Puuglar - Bart\|Puuglar]] managed to tip toe his way around the blistering shrooms and found an alchemist kidnapped by the skeletons                                                                                                                               |
+| [[Session 2]] | He has been using the mushrooms to make a knockout compound, which he gave a vial of to [[Puuglar - Bart\|Puuglar]]                                                                                                                                                  |
 
 
 <!-- SerializedQuery END -->

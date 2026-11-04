@@ -35,8 +35,9 @@ Zenith is the Sun God and main deity of Ahaura. Most religious folk choose to ba
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session | Reference |
-| ------- | --------- |
+| Session                                              | Reference                                                                                                                                          |
+| ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Session 1]] | The Winter Solstice festival took place in [[Calchester]] marking the start of longer days which means more of [[Zenith\| Zenith's]] warming glow! |
 
 
 <!-- SerializedQuery END -->

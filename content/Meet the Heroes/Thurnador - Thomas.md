@@ -67,8 +67,13 @@ aliases: Thurnador
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "Session", L.text AS "Reference" FROM "content/Session Journals" FLATTEN file.lists AS L WHERE contains(L.outlinks, this.file.link) SORT file.name ASC -->
 
-| Session | Reference |
-| ------- | --------- |
+| Session                                              | Reference                                                                                                                                                                                                                                                    |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [[Session 1]] | The cloaked figures ran in the direction of [[Thurnador - Thomas\|Thurnador]] who was heading into the town for the festival                                                                                                                                 |
+| [[Session 1]] | [[Thurnador - Thomas\|Thurnador]] crouched and took out two of the fleeing men's feet, and the group interrogated the bunch                                                                                                                                  |
+| [[Session 1]] | For seemingly no reason at all, [[Thurnador - Thomas\|Thurnador]] took offense to this child, and used the pommel of his sword to knock [[Cornelius]] out. Brewing a feud between [[Luglight Thorne - Mike\|Luglight]] and [[Thurnador - Thomas\|Thurnador]] |
+| [[Session 2]] | On the way [[Cornelius]] caught up with the party and gave them healing potions. [[Thurnador - Thomas\|Thurnador]] also gave him a heartfelt apology for his previous actions.                                                                               |
+| [[Session 2]] | [[Puuglar - Bart\|Puuglar]], afraid of the water, closed his eyes and held onto [[Thurnador - Thomas\|Thurnador's]] cloak                                                                                                                                    |
 
 
 <!-- SerializedQuery END -->
