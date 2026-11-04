@@ -22,7 +22,7 @@ description: The Templar's Order of the Radiant Corona of Heaven
 > |**Status**| Active|
 
 # Overview
-The Templar's Order of the Radiant Corona of Heaven (TORCH Knights) are the Royal Guard of the High King of Verdance. They were once an elite group of clerics, paladins, and knights who had the unwavering respect of the people of Verdance. Now, with the rise of adventuring and peacetime at [[Helio]], they have forgotten their roots. They now act more like boy scouts than an elite guard, helping old women cross the street and lost children find their parents. They have lost the respect of most citizens, however, a small group of TORCH Knights still take great pride in their.
+The Templar's Order of the Radiant Corona of Heaven (TORCH Knights) are the Royal Guard of the High King of Verdance. They were once an elite group of clerics, paladins, and knights who had the unwavering respect of the people of Verdance. Now, with the rise of adventuring and peacetime at [[Helio]], they have forgotten their roots. They now act more like boy scouts than an elite guard, helping old women cross the street and lost children find their parents. They have lost the respect of most citizens, however, a small group of TORCH Knights still take great pride in their order.
 
 ## Key Members
 

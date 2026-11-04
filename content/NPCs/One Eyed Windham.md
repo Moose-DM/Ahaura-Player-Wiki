@@ -3,13 +3,13 @@ title: One Eyed Windham
 draft: false
 tags:
   - NPC
-image: "[[unkown.webp]]"
+image: "[[One Eyed Windham.webp]]"
 description: Leader of the Black Foot
 ---
 
 > [!infobox|right]
 > ## One Eyed Windham
-> ![[unkown.webp|300]]
+> ![[One Eyed Windham.webp|300]]
 > 
 > |||
 > |---|---|
@@ -22,7 +22,7 @@ description: Leader of the Black Foot
 > |**Status**| Alive|
 
 # Overview
-One Eyed Windham is the leader of [[The Black Foot]].
+One Eyed Windham is the leader of [[The Black Foot]]. While the leader of a bandit group, she isn't entirely cruel. She doesn't want to be kidnapping people and was happy the party came to help her out of this unfortunate situation.
 
 ## Relationships
 

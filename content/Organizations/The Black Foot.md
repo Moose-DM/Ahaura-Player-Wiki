@@ -21,7 +21,7 @@ description: The Black Foot Bandit Gang
 > |**Status**| Operational|
 
 # Overview
-
+A bandit group that recently got in over their heads! Typically found enforcing their tolls on market routes, they were recently visited by a skeletal man demanding human sacrifices. Fearing what would happen if they said no, they began kidnapping people from [[Calchester]].
 
 ## Key Members
 

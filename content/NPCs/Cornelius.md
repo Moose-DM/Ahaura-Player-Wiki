@@ -21,7 +21,7 @@ description: Little Light, and squire of Luglight!
 > |**Status**| Alive|
 
 # Overview
-
+Cornelius is spry young squire training to become a [[TORCH Knights | TORCK Knight]]! He is currently squire to [[Luglight Thorne - Mike | Luglight Thorne]]. He wants nothing more than to help the people of Ahaura in any way he can. He is currently
 
 ## Relationships
 
